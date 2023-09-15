@@ -1,14 +1,19 @@
-import home from './components/home'
 
+import Header from './header'
+import Home from './Home'
 import './App.css'
 
 function App() {
   return (
-    <>
-<home></home>
+    <div>
+       
+     <Header></Header>
+      <Home></Home>
+      
+      </div>
 
+   
     
-    </>
 
   )
 
