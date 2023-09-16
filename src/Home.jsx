@@ -12,7 +12,7 @@ const Home = () => {
   const [courses, setCourses] = useState([]);
   const [select, setSelect] = useState([]);
   const [total, setTotal] = useState(0);
-  const [remaine, setRemaine] = useState(0);
+  const [remaine, setRemaine] = useState(20);
   const [price, setPrice] = useState(0);
   useEffect(() => {
     fetch('blog.json')
